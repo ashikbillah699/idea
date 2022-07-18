@@ -158,3 +158,77 @@ hr {
     font-weight: 400;
     color: #562EFF;
 }
+
+/* Lates Course */
+#Lates_Course {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course {
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(241, 241, 241);
+}
+
+.course img {
+    width: 224px;
+    height: 104px;
+}
+
+.course p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1E1E1E;
+}
+
+.course a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ED6B4F;
+}
+
+.couses_icon i {
+    color: #FFC014;
+    font-size: 12px;
+}
+
+.couses_icon .empty {
+    color: #AEAEAE;
+}
+
+.reating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.reating p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2A2A2;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    background-color: #FFE4E8;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.time i,
+.time p {
+    font-size: 14px;
+    color: #FF4A60;
+}
