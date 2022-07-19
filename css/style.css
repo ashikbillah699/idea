@@ -232,3 +232,34 @@ hr {
     font-size: 14px;
     color: #FF4A60;
 }
+
+/* Media query */
+
+
+/* Mobile devices */
+
+@media only screen and (max-width:688px) {
+    .menu {}
+
+    .top_players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog {
+        display: block;
+    }
+
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .course {
+        margin-top: 20px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
